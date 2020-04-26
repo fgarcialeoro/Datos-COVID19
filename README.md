@@ -9,7 +9,7 @@ Ver http://www.minciencia.gob.cl/COVID19 para más información.
 
 [data product 2: Casos totales por comuna](output/producto2) (un archivo por informe): archivos con valores separados por coma (csv) con la información a nivel comunal por cada informe publicado. Cada archivo contiene los campos 'Región', 'Comuna', 'Población', 'Casos Confirmados'.**Nota: previo a 15/4 no se reportaban por parte de MINSAL casos en comunas con pocos contagiados para proteger identidad**
 
-[data product 3: Casos totales por región incremental](output/producto3): archivo con valores separados por coma (csv) que concatena historia de publicaciones de casos totales por parte de MINSAL. Contiene los campos 'Región', '[fecha]', este último con el valor de la columna 'Casos totales' reportados por el MINSAL diariamente.
+[data product 3: Casos totales por región incremental](output/producto3): archivo con valores separados por coma (csv) que concatena historia de publicaciones de casos totales por parte de MINSAL. Contiene los campos 'Región', '[fecha]', este último con el valor de la columna 'Casos totales' reportados por el MINSAL mente.
 
 [data product 4: Casos totales por región](output/producto4) (un archivo por informe): archivos con valores separados por coma (csv) con la información a nivel regional publicada diariamente por MINSAL, las columnas varían a mediada que MINSAL dispone la información. Los campos para archivos posteriores a 31/3  son 'Región', 'Casos Nuevos', 'Casos totales', '%Casos Totales', 'Fallecidos'; para archivos anteriores son 'Región', 'Casos Nuevos', 'Casos totales', 'Recuperados'.  
 
